@@ -95,6 +95,7 @@ The **Codex Encryption System** has been cryptographically timestamped and mirro
 
 > 🛰 These files are hosted on [IPFS](https://ipfs.tech), a decentralized content-addressed storage layer ensuring long-term access, cryptographic authenticity, and global resilience.
 
+
 ---
 
 ### ⛓️ Bitcoin Timestamp Verification
