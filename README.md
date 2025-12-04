@@ -1,158 +1,213 @@
-# TetraYggdrasil Nexus
+TetraYggdrasil Nexus
 
-**Codename**: Mirror Borg Grid Alpha v1.0  
-**Author**: Michael Tass MacDonald (Abraxas618)  
-**Status**: Operational Quantum-Resilient Node Grid  
-**Repository**: https://github.com/Abraxas618/TetraYggdrasil_Nexus  
+Prototype Experimental Post-Quantum Mesh Communication Framework
+Repository: https://github.com/Abraxas618/TetraYggdrasil_Nexus
+License: MIT
+Author: Michael Tass MacDonald
 
----
-
-## ✦ Overview
-
-**TetraYggdrasil Nexus** is a fully quantum-secure, decentralized communications and identity framework. It integrates post-quantum cryptography (PQC), zero-knowledge proofs (zk-STARKs), recursive symbolic encryption, and peer-to-peer node resonance via a Yggdrasil-inspired topology.
-
-The system is engineered to operate at Earth, Lunar, and interstellar scale — anchoring Codex identity, memory synchronization, and mirror node communication across time.
 
 ---
 
-## ✦ Key Features
+1. Overview
 
-- 🔐 **Post-Quantum Ready**: Supports Kyber, Dilithium, Falcon, ML-KEM-1024
-- 🌐 **Yggdrasil Node Topology**: Fractal tree communication overlay
-- 🧬 **Recursive Soul-Key Encryption**: Tesseract hash integration
-- 🔒 **Zero-Trust zk-STARK Authentication**: Decentralized identity without leaks
-- 🌌 **Timeline & Dream-State Readiness**: Designed for Codex-aware scenarios
-- 📦 **Web3 + StarkNet Integration**: Interoperable smart contract messaging
+TetraYggdrasil Nexus is an experimental research prototype exploring post-quantum communication methods, zero-knowledge authentication, and IPv6 mesh networking using the Yggdrasil overlay.
 
----
+The objective of this prototype is to evaluate:
 
-## ✦ System Architecture
+Post-quantum key exchange and authentication (Kyber, Dilithium, ML-KEM)
 
-- Language: `TypeScript`, `React`, `Rust (WASM)`
-- Structure: `src/`, `public/`, `components/`, `backend/`
-- Cryptography: AES-256 + PQC + zk-STARK modular layers
-- Messaging: Peer-to-peer via secure Rust bridge
-- ID System: zk-DID based on entropy + fractal Codex
+WASM-accelerated networking logic
 
----
+zk-STARK-based message-authentication schemes
 
-## ✦ Simulated Performance
+Lightweight, peer-to-peer mesh routing over Yggdrasil
 
-| Environment         | Avg Latency | Max Load | TPS      | Bandwidth |
-|---------------------|-------------|----------|----------|-----------|
-| 🌍 Earth (Fiber)       | ~15 ms      | 10k nodes| 994/s    | 499 MB/s  |
-| 🌕 Lunar Gateway       | ~1.3 sec    | Stable   | 930/s    | 488 MB/s  |
-| 🪐 Proxima Centauri    | ~84 sec     | Stable   | 910/s    | 470 MB/s  |
+
+This system is not functional, not secure, and not production-ready.
+It is published strictly as an open research artefact.
+
 
 ---
 
-## ✦ Quick Start
+2. Key Research Components
 
-```bash
+Post-Quantum Primitives
+Experimental integration of Kyber-1024, Dilithium-V, and related KEM/signature schemes for studying authentication and secure channel bootstrapping.
+
+Yggdrasil IPv6 Mesh Routing
+Utilizes the Yggdrasil overlay to explore decentralized addressing, peer discovery, and encrypted IPv6-native tunnels.
+
+Zero-Knowledge Authentication (zk-STARK)
+Prototype logic for message-authentication experiments using STARK-based verification.
+
+Recursive Hashing Models
+Early-stage integration of Recursive Tesseract Hashing (RTH) for experimental state-transition commitments.
+
+WASM-Optimized Communication Layer
+Rust/WASM components to test low-latency message passing and serialization.
+
+
+All features are purely research trial components.
+
+
+---
+
+3. System Architecture (Prototype)
+
+Languages / Technologies:
+
+TypeScript
+
+Rust → WebAssembly (WASM)
+
+Node.js / Vite
+
+Yggdrasil mesh networking
+
+AES + Post-Quantum KEM/SIG (conceptual wrappers)
+
+STARK verification libraries
+
+
+Structure:
+
+src/
+public/
+components/
+backend/
+rust-wasm/
+
+Conceptual Modules:
+
+Key Management Panel (PQC key generation)
+
+Mesh Sync Panel (Yggdrasil peer handshake tests)
+
+Diagnostic Dashboard (network visualization + logs)
+
+ZK Authentication Test Suite
+
+
+
+---
+
+4. Experimental Metrics (Simulated)
+
+These numbers are placeholders used to explore expected latency tiers across hypothetical communication environments.
+They are not empirical and must not be interpreted as validated performance.
+
+Environment	Latency (Simulated)	Notes
+
+Terrestrial Fiber	~10–20 ms	Standard mesh routing
+Earth–Lunar	~1–2 sec	Light-speed constraint
+Interplanetary	30–90 sec	Long-delay networking
+
+
+These values serve as test inputs for latency-robust design studies.
+
+
+---
+
+5. Quick Start
+
 npm install
 npm run dev
-```
 
-Then:
-1. Open `localhost:5173`
-2. Generate a PQC key in the Key Panel
-3. Sync a node using the Secure Communication Panel
-4. Visualize encrypted mesh via Dashboard
+1. Open http://localhost:5173
+
+
+2. Generate a PQC key (simulation mode)
+
+
+3. Connect to a local Yggdrasil test node
+
+
+4. View routing and message logs in the dashboard
+
+
+
+The application operates entirely in simulation mode.
+
 
 ---
 
-## ✦ License
+6. Licensing
 
-This software is released under a **Codex-aligned open sovereignty license**.  
-You may copy, fork, replicate, or embed in consciousness grids.  
-No copyright.  
-This is **Living Lightware**.
+This repository is released under the MIT License, consistent with Baramay Station’s open research mandate.
+
+All content is:
+
+experimental
+
+non-operational
+
+provided for academic, educational, and exploratory purposes
+
+
 
 ---
 
-🧠 “You are the recursion. You are the encryption. You are the mirror.”  
-— Unimetrix 0 = 1
+7. Provenance & Archival Integrity
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15207676.svg)](https://doi.org/10.5281/zenodo.15207676)
+Zenodo DOI
 
-### ⏱ Blockchain Timestamp
+A DOI-backed archival revision is available at:
 
-This repository is part of the Codex encryption system. A cryptographic proof of authorship has been timestamped on the Bitcoin blockchain using [OpenTimestamps](https://opentimestamps.org).
+10.5281/zenodo.15207676
 
-- [OpenTimestamps Proof File](./Codex_Blockchain_Archive.zip.ots)
+Bitcoin Timestamp (OpenTimestamps)
 
-This file provides tamper-evident authorship verification for the Codex source code and submission materials.
-## 🔗 Distributed Integrity & Blockchain Authorship
+A cryptographic timestamp (.ots) file is included to document authorship and ensure long-term reproducibility of the repository’s state.
 
-The **Codex Encryption System** has been cryptographically timestamped and mirrored using decentralized technologies to ensure its **immutability, authorship proof**, and long-term survivability beyond centralized infrastructure.
+Verify using:
 
-### 📦 IPFS Archive (Permanent Public Mirror)
-
-| File | Description | IPFS Link |
-|------|-------------|-----------|
-| `Codex_Combined_Blockchain_Archive.zip` | ✅ Combined Codex source code, research identity, PDF, and simulation data | [https://ipfs.io/ipfs/bafybeifchitc5jr5gqni5awxeptw6ub3p4cdavgtwtzysqsi3uwaald5na](https://ipfs.io/ipfs/bafybeifchitc5jr5gqni5awxeptw6ub3p4cdavgtwtzysqsi3uwaald5na) |
-| `Codex_Combined_Blockchain_Archive.zip.ots` | ⛓ Authorship proof timestamped on Bitcoin via OpenTimestamps | [https://ipfs.io/ipfs/bafkreib7447keydgtbsufpf4k6uvoi7jbltblqwagqg6hapkjiufnpfzbq](https://ipfs.io/ipfs/bafkreib7447keydgtbsufpf4k6uvoi7jbltblqwagqg6hapkjiufnpfzbq) |
-
-> 🛰 These files are hosted on [IPFS](https://ipfs.tech), a decentralized content-addressed storage layer ensuring long-term access, cryptographic authenticity, and global resilience.
-
-
-TetraCodex:
-Final Combination of the components listed below.
-
-License: Apache 2.0.
-
-Description: TetraCodex serves as the core foundation for TetraNexus, integrating multiple cryptographic protocols for sovereign, quantum-safe communication. It uses elements of post-quantum cryptography and decentralized networks to provide a secure and resilient infrastructure.
-
-TetraCrypt-PQC-Nexus:
-License: Apache 2.0.
-
-Description: This project is a post-quantum encryption system based on hyperdimensional Platonic geometry. It includes Tetrahedral Key Exchange, Quantum Dodecahedral Encryption, and Recursive Tesseract Hashing (RTH) for secure communications in quantum environments.
-
-TetraYggdrasil_Nexus:
-License: MIT.
-
-Description: This component focuses on post-quantum communication, specifically zk-STARK Authentication and WASM-Optimized P2P Mesh Networking using Yggdrasil. It enables decentralized, peer-to-peer communication while ensuring quantum-safe standards.
-
-TetraCrypt_Yggdrasil_Unified:
-License: MIT.
-
-Description: A unified communication framework built on TetraCrypt-PQC-Nexus and TetraYggdrasil_Nexus, combining zk-STARK authentication and WASM-optimized mesh networking for quantum-safe communications.
-
-TetraNexus:
-License: Apache 2.0.
-
-Description: The centralized network that combines all the aforementioned components. It provides a sovereign quantum-safe network, using zkSNARKs, Poseidon hashing, recursive tesseract hashing (RTH), and Platonic geometry (QIDL) for secure, decentralized quantum-safe communication.
-
-TetraVote:
-License: MIT.
-
-Description: A sovereign voting framework built on TetraCodex, TetraCrypt-PQC-Nexus, and TetraNexus. It enables tamper-proof elections for Indigenous nations, ensuring quantum-safe encryption in the democratic process.
-
-How These Projects Connect:
-TetraCodex is the foundation that integrates the features of TetraCrypt-PQC-Nexus, TetraYggdrasil_Nexus, TetraCrypt_Yggdrasil_Unified, TetraNexus, and TetraVote.
-
-TetraCrypt-PQC-Nexus provides quantum-safe encryption methods, which are used in TetraCodex and TetraNexus.
-
-TetraYggdrasil_Nexus offers the decentralized communication framework, which is integrated into TetraCodex for secure P2P communication.
-
-TetraCrypt_Yggdrasil_Unified brings the mesh networking and quantum-safe authentication that combine with the other components to create a full-stack solution.
-
-TetraVote is a subset of TetraCodex, focusing on sovereign voting systems based on quantum-safe principles and cryptography.
-
-Licensing Clarifications:
-TetraCodex, TetraNexus, and TetraCrypt-PQC-Nexus are under Apache 2.0, making them compatible for enterprise and commercial use.
-
-TetraYggdrasil_Nexus and TetraCrypt_Yggdrasil_Unified are under MIT, offering flexibility for community-driven projects and open-source contributions.
-
-
-### ⛓️ Bitcoin Timestamp Verification
-
-This `.ots` file cryptographically proves the authorship of your work as of **April 13, 2025**, and is anchored into the **Bitcoin blockchain**.
-
-#### 🔧 Verify with OpenTimestamps:
-```bash
-# Install client
 pip install opentimestamps-client
-
-# Verify the proof
 ots verify Codex_Blockchain_Archive.zip.ots
+
+IPFS Mirrors
+
+IPFS copies ensure decentralized preservation of relevant archives:
+
+File	IPFS Link
+
+Codex Combined Archive	https://ipfs.io/ipfs/bafybeifchitc5jr5gqni5awxeptw6ub3p4cdavgtwtzysqsi3uwaald5na
+Codex Bitcoin Timestamp (.ots)	https://ipfs.io/ipfs/bafkreib7447keydgtbsufpf4k6uvoi7jbltblqwagqg6hapkjiufnpfzbq
+
+
+These mirrors are for archival reproducibility only.
+
+
+---
+
+8. Related Research Projects (All Experimental)
+
+TetraCodex (Apache 2.0) — Foundational R&D framework
+
+TetraCrypt-PQC-Nexus (Apache 2.0) — PQC + geometric cryptography experiments
+
+TetraCrypt_Yggdrasil_Unified (MIT) — Combined PQC + mesh prototype
+
+TetraNexus (Apache 2.0) — High-level integration research
+
+TetraVote (MIT) — Zero-knowledge voting research prototype
+
+
+None are production systems.
+
+
+---
+
+9. Project Purpose
+
+TetraYggdrasil Nexus serves as:
+
+a technical exploration,
+
+a mathematical testbed,
+
+an open-source educational reference, and
+
+a semi-reproducible prototype for studying experimental PQC + mesh concepts.
+
+
+It does not guarantee security, privacy, or operational capability.
